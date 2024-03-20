@@ -29,7 +29,7 @@ app.get('/imagen', (req, res) => {
     let imageURL = '';
 
     // Comparar la hora actual con los momentos del día usando switch
-    switch (true) {
+    switch (now) {
         case now.isBetween(timeStudy, timeBarrer):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
