@@ -4,7 +4,6 @@ require('dotenv').config();
 
 //Crear el servidor de express
 const app = express();
-app.use(express.static('public'));
 
 //Rutas
 app.get('/imagen', (req, res) => {
