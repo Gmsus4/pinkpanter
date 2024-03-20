@@ -31,49 +31,49 @@ app.get('/imagen', (req, res) => {
     // Comparar la hora actual con los momentos del día usando switch
     switch (true) {
         case now.isSameOrAfter(timeStudy):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
-        case now.isSameOrAfter(timeBarrer):
-            imageURL = 'https://i.pinimg.com/originals/d8/d8/19/d8d819cadd4f67939b1f5c9cd35c7512.jpg';
-            break;
+        // case now.isSameOrAfter(timeBarrer):
+        //     imageURL = 'https://i.pinimg.com/originals/d8/d8/19/d8d819cadd4f67939b1f5c9cd35c7512.jpg';
+        //     break;
         case now.isSameOrAfter(timeStudy2):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeDesayunar):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949494/pink%20panter/hk94itwdndeycgc49zli.jpg';
             break;
         case now.isSameOrAfter(timeStudy3):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeLavarTrastes):
             imageURL = 'https://i.pinimg.com/originals/d8/d8/19/d8d819cadd4f67939b1f5c9cd35c7512.jpg';
             break;
         case now.isSameOrAfter(timeStudy4):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeStudy5):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeStudy6):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeStudy7):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeComer):
-            imageURL = 'https://i.pinimg.com/originals/c5/e1/37/c5e1377dfe1e60ffba4c523b1ce69f04.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949494/pink%20panter/hk94itwdndeycgc49zli.jpg';
             break;
         case now.isSameOrAfter(timeStudy8):
-            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949493/pink%20panter/elyn7smg9l8nmuh15fni.jpg';
             break;
         case now.isSameOrAfter(timeCaminar):
-            imageURL = 'https://i.pinimg.com/originals/67/5e/35/675e35ba3ff169ad726a1b29af80c178.jpg';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949486/pink%20panter/w9cju0jtbfoqpakmtnit.jpg';
             break;
-        case now.isSameOrAfter(timeEjercicio):
-            imageURL = 'https://i.pinimg.com/originals/33/40/e6/3340e6101eb3d8ccc40009a7888162f3.gif';
-            break;
+        // case now.isSameOrAfter(timeEjercicio):
+        //     imageURL = 'https://i.pinimg.com/originals/33/40/e6/3340e6101eb3d8ccc40009a7888162f3.gif';
+        //     break;
         case now.isSameOrAfter(timeDormir):
-            imageURL = 'https://i.pinimg.com/originals/17/4f/ee/174fee9be9414ad86e1cdd277db94e06.png';
+            imageURL = 'https://res.cloudinary.com/dozzu7xhx/image/upload/v1710949484/pink%20panter/mdqksctijruxlnd2b3vd.jpg';
             break;
         default:
             res.send('No hay ninguna imagen disponible en este momento.');
