@@ -21,7 +21,9 @@ app.get('/imagen', (req, res) => {
     // const imageURL = `http://localhost:3000/imagenes/${imagen}`;
 
     // Enviar la URL como respuesta
-    res.send(imagen);
+    res.json({
+        url: imagen
+    });
 });
 
 // Iniciar el servidor
