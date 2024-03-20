@@ -29,47 +29,47 @@ app.get('/imagen', (req, res) => {
     let imageURL = '';
 
     // Comparar la hora actual con los momentos del día usando switch
-    switch (now) {
-        case now.isBetween(timeStudy, timeBarrer):
+    switch (true) {
+        case now.isSameOrAfter(timeStudy):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeBarrer, timeStudy2):
+        case now.isSameOrAfter(timeBarrer):
             imageURL = 'https://i.pinimg.com/originals/d8/d8/19/d8d819cadd4f67939b1f5c9cd35c7512.jpg';
             break;
-        case now.isBetween(timeStudy2, timeDesayunar):
+        case now.isSameOrAfter(timeStudy2):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeDesayunar, timeStudy3):
+        case now.isSameOrAfter(timeDesayunar):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeStudy3, timeLavarTrastes):
+        case now.isSameOrAfter(timeStudy3):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeLavarTrastes, timeStudy4):
+        case now.isSameOrAfter(timeLavarTrastes):
             imageURL = 'https://i.pinimg.com/originals/d8/d8/19/d8d819cadd4f67939b1f5c9cd35c7512.jpg';
             break;
-        case now.isBetween(timeStudy4, timeStudy5):
+        case now.isSameOrAfter(timeStudy4):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeStudy5, timeStudy6):
+        case now.isSameOrAfter(timeStudy5):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeStudy6, timeStudy7):
+        case now.isSameOrAfter(timeStudy6):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeStudy7, timeComer):
+        case now.isSameOrAfter(timeStudy7):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeComer, timeStudy8):
+        case now.isSameOrAfter(timeComer):
             imageURL = 'https://i.pinimg.com/originals/c5/e1/37/c5e1377dfe1e60ffba4c523b1ce69f04.jpg';
             break;
-        case now.isBetween(timeStudy8, timeCaminar):
+        case now.isSameOrAfter(timeStudy8):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
-        case now.isBetween(timeCaminar, timeEjercicio):
+        case now.isSameOrAfter(timeCaminar):
             imageURL = 'https://i.pinimg.com/originals/67/5e/35/675e35ba3ff169ad726a1b29af80c178.jpg';
             break;
-        case now.isBetween(timeEjercicio, timeDormir):
+        case now.isSameOrAfter(timeEjercicio):
             imageURL = 'https://i.pinimg.com/originals/33/40/e6/3340e6101eb3d8ccc40009a7888162f3.gif';
             break;
         case now.isSameOrAfter(timeDormir):
