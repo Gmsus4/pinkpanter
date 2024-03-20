@@ -71,7 +71,7 @@ app.get('/imagen', (req, res) => {
         case now.isBetween(timeEjercicio, timeDormir):
             imageURL = 'https://i.pinimg.com/originals/33/40/e6/3340e6101eb3d8ccc40009a7888162f3.gif';
             break;
-        case now.isSameOrAfter(timeEjercicio, timeDormir):
+        case now.isSameOrAfter(timeDormir):
             imageURL = 'https://i.pinimg.com/originals/17/4f/ee/174fee9be9414ad86e1cdd277db94e06.png';
             break;
         default:
