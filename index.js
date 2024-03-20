@@ -39,6 +39,9 @@ app.get('/imagen', (req, res) => {
         case now.isBetween(timeStudy2, timeDesayunar):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
+        case now.isBetween(timeDesayunar, timeStudy3):
+            imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
+            break;
         case now.isBetween(timeStudy3, timeLavarTrastes):
             imageURL = 'https://i.pinimg.com/originals/3e/4f/b0/3e4fb08a0ff59d5a8d0c137870e3ce57.jpg';
             break;
